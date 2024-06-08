@@ -1,0 +1,66 @@
+[
+  {
+    "sku": 1,
+    "name": "Apple",
+    "description": "Fruits",
+    "quantity": 10,
+    "price": 1.5,
+    "imgUrl": "https://static.libertyprim.com/files/varietes/pomme-dalinette-large.jpg?1589283082"
+  },
+  {
+    "sku": 2,
+    "name": "Orange",
+    "description": "Fruits",
+    "quantity": 12,
+    "price": 2.5,
+    "imgUrl": "https://static.libertyprim.com/files/familles/orange-large.jpg?1569271818"
+  },
+  {
+    "sku": 3,
+    "name": "Blueberry",
+    "description": "Fruits",
+    "quantity": 30,
+    "price": 4.5,
+    "imgUrl": "https://static.libertyprim.com/files/familles/myrtille-large.jpg?1569271808"
+  },
+  {
+    "sku": 4,
+    "name": "Strawberry",
+    "description": "Fruits",
+    "quantity": 25,
+    "price": 3.5,
+    "imgUrl": "https://static.libertyprim.com/files/familles/fraise-large.jpg?1569271765"
+  },
+  {
+    "sku": 5,
+    "name": "Carrot",
+    "description": "Vegetables",
+    "quantity": 7,
+    "price": 0.5,
+    "imgUrl": "https://static.libertyprim.com/files/familles/carotte-large.jpg?1569271734"
+  },
+  {
+    "sku": 6,
+    "name": "Tomato",
+    "description": "Vegetables",
+    "quantity": 5,
+    "price": 1.2,
+    "imgUrl": "https://static.libertyprim.com/files/offres/vend-tomate-ronde-5016-1-large.jpg?1703499667"
+  },
+  {
+    "sku": 7,
+    "name": "Cucumber",
+    "description": "Vegetables",
+    "quantity": 3,
+    "price": 1.9,
+    "imgUrl": "https://static.libertyprim.com/files/familles/concombre-large.jpg?1569271746"
+  },
+  {
+    "sku": 8,
+    "name": "Lettuce",
+    "description": "Vegetables",
+    "quantity": 2,
+    "price": 1.5,
+    "imgUrl": "https://cdn.britannica.com/77/170677-050-F7333D51/lettuce.jpg"
+  }
+]
