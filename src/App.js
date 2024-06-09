@@ -1,4 +1,5 @@
 import './styles.css';
+import './bootstrap.css';
 import InventoryList from './components/InventoryList';
 import Sidebar from './components/Sidebar';
 

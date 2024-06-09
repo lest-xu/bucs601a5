@@ -1,20 +1,30 @@
 import React from 'react';
-import './../styles.css';
 
 class InventoryItem extends React.Component {
     constructor(props) {
         super(props);
+        // assign the handleDelete from the props [InventoryList]
+        this.handleDelete = props.handleDelete;
         this.state = { product: props.product };
     }
 
+    // define a default handleDelete function
+    handleDelete = (sku) => this.handleDelete;
+
     render() {
         return (
-            <div className="grid-item"
+            <div className='grid-item'
                 style={{ backgroundImage: `url(${this.state.product.imgUrl})` }}>
-                <p><b>{this.state.product.name}</b></p>
-                <p>SKU: {this.state.product.sku}</p>
-                <p>Quantity: {this.state.product.quantity}</p>
-                <p className="price">Price: ${this.state.product.price}</p>
+                <div className='fw-bold'>
+                    {this.state.product.name}
+                </div>
+                <div className='text-end'>
+                    {/* set onClick event to handleDelete with sku as param */}
+                    <button type='button' className='btn btn-danger btn-sm' onClick={ ()=> this.handleDelete(this.state.product.sku)}>Delete</button>
+                </div>
+                <div>SKU: {this.state.product.sku}</div>
+                <div>Quantity: {this.state.product.quantity}</div>
+                <div>Price: <span className='text-success'>${this.state.product.price} </span></div>
             </div>
         );
     }
