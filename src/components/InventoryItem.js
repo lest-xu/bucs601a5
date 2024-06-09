@@ -5,7 +5,7 @@ class InventoryItem extends React.Component {
         super(props);
         // assign the handleDelete from the props [InventoryList]
         this.handleDelete = props.handleDelete;
-        this.state = { product: props.product };
+        this.state = { product: props.product }; // assign the product value from props
     }
 
     // define a default handleDelete function

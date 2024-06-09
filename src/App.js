@@ -1,7 +1,8 @@
+// created from the previous assignment 2
 import './styles.css';
-import './bootstrap.css';
+// integrated with bootstrap css that is mainly used for button styles
+import './bootstrap.css'; 
 import InventoryList from './components/InventoryList';
-import Sidebar from './components/Sidebar';
 
 function App() {
     return (
@@ -9,10 +10,6 @@ function App() {
             <main className='flex-item'>
                 <InventoryList></InventoryList>
             </main>
-
-            <div className='flex-item'>
-                <Sidebar></Sidebar>
-            </div>
         </div>
     )
 }

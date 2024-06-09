@@ -1,12 +1,62 @@
-# Getting Started with Create React App
+# X Grocery Store
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple Inventory application for a local grocery store built with React for my class CS 601 O1 Assignment 5 at Boston University. The application dynamically rendered list of products, each including its SKU, Name, and Quantity.
 
-## Available Scripts
+Side notes: most of the styles were adapted from the previous assignment 3.
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Project Structure](#project-structure)
+- [File Structure](#file-structure)
+
+## Features
+
+- Responsive design that works on various devices
+- A clean and modern user interface
+- Sections for inventory, about me, and contact information
+- Hover effects for interactive user experience
+- Fetch inventory data from a remote JSON file.
+- Dynamically rendered a list of products on the webpage.
+- Delete product when click Delete button on each item.
+- Rest the products to the original inventory.
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- React
+- Javascript
+- Fetch API
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js installed on your machine. You can download and install Node.js from [here](https://nodejs.org/en/download).
+
+### Installation
+
+1. Clone the repository:
+
+   ```sh
+   git clone https://github.com/lest-xu/bucs601a5.git
+
+2. Navigate to the project directory:
+
+   ```sh
+   cd yourrepo/x-grocery-store
+
+3. Install the React App compiler and other dependencies:
+
+   ```sh
+   npm install
+
+### Running the Application
+
+   `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -14,57 +64,29 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+## Project Structure
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`app.ts`: Main TypeScript file containing the application logic.
+`index.html`: HTML file containing the structure of the webpage.
+`style.css`: CSS file for basic styling.
+`countries.json`: JSON file containing the list of countries.
 
-### `npm run build`
+## File Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The project directory contains the following files:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+    country-app/
+        node_modules/
+        public/
+            ├── app.js
+            ├── app.js.map
+            ├── countries.json
+            ├── index.html
+            ├── styles.css
+        src/
+            ├── app.ts
+        ── package-lock.json
+        ── package.json
+        ── README.md
+        ── tsconfig.json
