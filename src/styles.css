@@ -137,7 +137,9 @@ main {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* slight shadow effect on hover */
   transform: translateY(-5px); /* lift effect on hover */
 }
-
+.price {
+  color: rgb(226, 78, 78);
+}
 /**** 6. sidebar section [Inventory Management] ****/
 /* sidebar section styling */
 .sidebar {
