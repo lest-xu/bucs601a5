@@ -21,7 +21,6 @@ class InventoryList extends React.Component {
                 <h2>Inventory 🍎</h2>
                 <div className="grid-container">
                     {this.state.inventories.map(item => (
-                        // console.log(item.name)
                         <InventoryItem key={item.sku} product={item}></InventoryItem>
                     ))}
                 </div>

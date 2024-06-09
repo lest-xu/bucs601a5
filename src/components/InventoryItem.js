@@ -9,15 +9,11 @@ class InventoryItem extends React.Component {
 
     render() {
         return (
-            <div className="grid-item" style={{
-               backgroundImage: `url(${this.state.product.imgUrl})`,
-               backgroundSize: '80px',
-               backgroundRepeat: 'no-repeat',
-               backgroundPosition: 'bottom 10px right 10px'
-            }}>
+            <div className="grid-item"
+                style={{ backgroundImage: `url(${this.state.product.imgUrl})` }}>
                 <p><b>{this.state.product.name}</b></p>
                 <p>SKU: {this.state.product.sku}</p>
-                <p>Available: {this.state.product.quantity}</p>
+                <p>Quantity: {this.state.product.quantity}</p>
                 <p className="price">Price: ${this.state.product.price}</p>
             </div>
         );
