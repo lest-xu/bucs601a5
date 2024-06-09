@@ -52,7 +52,7 @@ You can view the live demo of the project [here](https://codepen.io/lest-xu/pen/
 2. Navigate to the project directory:
 
    ```sh
-   cd x-grocery-store
+   cd bucs601a5
 
 3. Install the React App compiler and other dependencies:
 
