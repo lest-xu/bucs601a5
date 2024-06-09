@@ -84,12 +84,19 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ## Project Structure
 
 `App.js`: Main React component jsx file containing the inventory list component.
+
 `InventoryList.js`: React component jsx file rendering the inventory list logic.
+
 `InventoryItem.js`: React component jsx file returning the inventory item logic.
+
 `index.js`: Default root javascript file for the webpage.
+
 `index.html`: HTML file containing the structure of the webpage.
+
 `style.css`: CSS file for basic styling from previous assignment 3.
+
 `bootstrap.css`: CSS file for buttons styling from Bootstrap.
+
 `inventory.json`: JSON file containing the list of grocery items.
 
 ## File Structure
