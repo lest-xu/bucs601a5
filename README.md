@@ -1,8 +1,8 @@
 # X Grocery Store
 
-This is a simple Inventory application for a local grocery store built with React for my class CS 601 O1 Assignment 5 at Boston University. The application dynamically rendered list of products, each including its SKU, Name, and Quantity.
+This is a simple Inventory application for a local grocery store built with React for my class CS 601 O1 Assignment 6 at Boston University. The application dynamically rendered list of products, each including its SKU, Name, and Quantity.
 
-Side notes: most of the styles were adapted from the previous assignment 3.
+Side notes: most of the styles were adapted from the previous assignment 3; most of the components are from the previous assignment 5.
 
 ## Table of Contents
 
@@ -89,6 +89,10 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 `InventoryItem.js`: React component jsx file returning the inventory item logic.
 
+`NotFound.js`: React component jsx file returning when the page is not found.
+
+`ProductDetail.js`: React component jsx file returning the details of the inventory item logic.
+
 `index.js`: Default root javascript file for the webpage.
 
 `index.html`: HTML file containing the structure of the webpage.
@@ -108,12 +112,21 @@ The project directory contains the following files:
         node_modules/
         public/
             ├── index.html
+            images/
+                ├── apple.jpg
+                ├── blueberry.jpg
+                ├── carrot.jpg
+                ├── cucumber.jpg
+                ├── lettuce.jpg
+                ├── orange.jpg
+                ├── strawberry.jpg
+                ├── tomato.jpg
         src/
             components/
                 ├── InventoryItem.js
                 ├── InventoryList.js
-                ├── countries.json
-                ├── index.html
+                ├── NotFound.js
+                ├── ProductDetail.js
             models/
                 ├── inventory.json
             ├── App.js
