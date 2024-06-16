@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 class InventoryItem extends React.Component {
     constructor(props) {
@@ -21,6 +22,7 @@ class InventoryItem extends React.Component {
                 <div className='text-end'>
                     {/* set onClick event to handleDelete with sku as param */}
                     <button type='button' className='btn btn-danger btn-sm' onClick={ ()=> this.handleDelete(this.state.product.sku)}>Delete</button>
+                    <Link className="btn btn-link" to={`/product/${this.state.product.sku}`}>Detail</Link>
                 </div>
                 <div>SKU: {this.state.product.sku}</div>
                 <div>Quantity: {this.state.product.quantity}</div>

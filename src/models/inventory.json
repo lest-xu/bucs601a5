@@ -5,7 +5,7 @@
     "description": "Fruits",
     "quantity": 10,
     "price": 1.5,
-    "imgUrl": "./images/apple.jpg"
+    "imgUrl": "apple.jpg"
   },
   {
     "sku": "002",
@@ -13,7 +13,7 @@
     "description": "Fruits",
     "quantity": 12,
     "price": 2.5,
-    "imgUrl": "./images/orange.jpg"
+    "imgUrl": "orange.jpg"
   },
   {
     "sku": "003",
@@ -21,7 +21,7 @@
     "description": "Fruits",
     "quantity": 30,
     "price": 4.5,
-    "imgUrl": "./images/blueberry.jpg"
+    "imgUrl": "blueberry.jpg"
   },
   {
     "sku": "004",
@@ -29,7 +29,7 @@
     "description": "Fruits",
     "quantity": 25,
     "price": 3.5,
-    "imgUrl": "./images/strawberry.jpg"
+    "imgUrl": "strawberry.jpg"
   },
   {
     "sku": "005",
@@ -37,7 +37,7 @@
     "description": "Vegetables",
     "quantity": 7,
     "price": 0.5,
-    "imgUrl": "./images/carrot.jpg"
+    "imgUrl": "carrot.jpg"
   },
   {
     "sku": "006",
@@ -45,7 +45,7 @@
     "description": "Vegetables",
     "quantity": 5,
     "price": 1.2,
-    "imgUrl": "./images/tomato.jpg"
+    "imgUrl": "tomato.jpg"
   },
   {
     "sku": "007",
@@ -53,7 +53,7 @@
     "description": "Vegetables",
     "quantity": 3,
     "price": 1.9,
-    "imgUrl": "./images/cucumber.jpg"
+    "imgUrl": "cucumber.jpg"
   },
   {
     "sku": "008",
@@ -61,6 +61,6 @@
     "description": "Vegetables",
     "quantity": 2,
     "price": 1.5,
-    "imgUrl": "./images/lettuce.jpg"
+    "imgUrl": "lettuce.jpg"
   }
 ]
